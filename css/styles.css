@@ -1,0 +1,404 @@
+@import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+.navbar.navbar-fixed-top,
+.navbar-inner {
+  box-shadow: none !important;
+  border: 0;
+  background-image: none;
+  background-color: #FFF;
+}
+.navbar.navbar-fixed-top .container,
+.navbar-inner .container {
+  padding: 20px 0;
+}
+.navbar.navbar-fixed-top .container .brand,
+.navbar-inner .container .brand {
+  width: 150px;
+  margin: -20px 0;
+}
+.navbar.navbar-fixed-top .container ul li a,
+.navbar-inner .container ul li a {
+  text-shadow: none;
+  color: #777;
+}
+body {
+  font-family: "Nanum Gothic", "나눔고딕", "돋움", dotum, sans-serif;
+}
+.jumbotron {
+  background: url("../img/universe.jpg");
+  background-size: cover;
+}
+.jumbotron .container {
+  text-align: center;
+  padding: 150px 0 70px 0;
+  border: 0;
+  color: #FFF;
+}
+.jumbotron .container h1 {
+  font-size: 5em;
+}
+.jumbotron .container .brief-paragraph {
+  padding: 15px 0;
+  font-size: 1.5em;
+}
+.masthead {
+  padding: 100px 0;
+  color: #777;
+}
+.comment,
+.mission,
+.about,
+.contact,
+.product,
+.tools,
+.dna {
+  padding-top: 120px;
+}
+.comment .jw-talk,
+.mission .jw-talk,
+.about .jw-talk,
+.contact .jw-talk,
+.product .jw-talk,
+.tools .jw-talk,
+.dna .jw-talk {
+  font-size: 1.2em;
+  line-height: 1.7em;
+  padding: 5px 0;
+}
+.comment .vision-span,
+.mission .vision-span,
+.about .vision-span,
+.contact .vision-span,
+.product .vision-span,
+.tools .vision-span,
+.dna .vision-span {
+  text-align: center;
+}
+.comment .about-span,
+.mission .about-span,
+.about .about-span,
+.contact .about-span,
+.product .about-span,
+.tools .about-span,
+.dna .about-span {
+  text-align: center;
+}
+.comment .about-span img,
+.mission .about-span img,
+.about .about-span img,
+.contact .about-span img,
+.product .about-span img,
+.tools .about-span img,
+.dna .about-span img {
+  width: 200px;
+  margin: 20px 0;
+}
+.comment .product-span,
+.mission .product-span,
+.about .product-span,
+.contact .product-span,
+.product .product-span,
+.tools .product-span,
+.dna .product-span {
+  text-align: center;
+  margin: 20px 0;
+}
+.comment .product-span .product-image,
+.mission .product-span .product-image,
+.about .product-span .product-image,
+.contact .product-span .product-image,
+.product .product-span .product-image,
+.tools .product-span .product-image,
+.dna .product-span .product-image {
+  margin: 0 auto;
+  width: 350px;
+  height: 232px;
+  overflow: hidden;
+}
+.comment .product-span .product-image img,
+.mission .product-span .product-image img,
+.about .product-span .product-image img,
+.contact .product-span .product-image img,
+.product .product-span .product-image img,
+.tools .product-span .product-image img,
+.dna .product-span .product-image img {
+  width: 100%;
+}
+.comment .span12 .span6,
+.mission .span12 .span6,
+.about .span12 .span6,
+.contact .span12 .span6,
+.product .span12 .span6,
+.tools .span12 .span6,
+.dna .span12 .span6 {
+  margin-left: 0;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.comment .span12 .span6 .fb-like,
+.mission .span12 .span6 .fb-like,
+.about .span12 .span6 .fb-like,
+.contact .span12 .span6 .fb-like,
+.product .span12 .span6 .fb-like,
+.tools .span12 .span6 .fb-like,
+.dna .span12 .span6 .fb-like,
+.comment .span12 .span6 .tw-follow,
+.mission .span12 .span6 .tw-follow,
+.about .span12 .span6 .tw-follow,
+.contact .span12 .span6 .tw-follow,
+.product .span12 .span6 .tw-follow,
+.tools .span12 .span6 .tw-follow,
+.dna .span12 .span6 .tw-follow {
+  text-align: center;
+}
+.comment .tool-span .tool-name,
+.mission .tool-span .tool-name,
+.about .tool-span .tool-name,
+.contact .tool-span .tool-name,
+.product .tool-span .tool-name,
+.tools .tool-span .tool-name,
+.dna .tool-span .tool-name {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.3em;
+  color: #FFF;
+  margin-bottom: 8px;
+  margin-right: 5px;
+}
+.comment .tool-span .tool-name.node,
+.mission .tool-span .tool-name.node,
+.about .tool-span .tool-name.node,
+.contact .tool-span .tool-name.node,
+.product .tool-span .tool-name.node,
+.tools .tool-span .tool-name.node,
+.dna .tool-span .tool-name.node {
+  background-color: #8CC84B;
+}
+.comment .tool-span .tool-name.express,
+.mission .tool-span .tool-name.express,
+.about .tool-span .tool-name.express,
+.contact .tool-span .tool-name.express,
+.product .tool-span .tool-name.express,
+.tools .tool-span .tool-name.express,
+.dna .tool-span .tool-name.express {
+  background-color: #000;
+}
+.comment .tool-span .tool-name.nginx,
+.mission .tool-span .tool-name.nginx,
+.about .tool-span .tool-name.nginx,
+.contact .tool-span .tool-name.nginx,
+.product .tool-span .tool-name.nginx,
+.tools .tool-span .tool-name.nginx,
+.dna .tool-span .tool-name.nginx {
+  background-color: #009900;
+}
+.comment .tool-span .tool-name.mongodb,
+.mission .tool-span .tool-name.mongodb,
+.about .tool-span .tool-name.mongodb,
+.contact .tool-span .tool-name.mongodb,
+.product .tool-span .tool-name.mongodb,
+.tools .tool-span .tool-name.mongodb,
+.dna .tool-span .tool-name.mongodb {
+  background-color: #1D8A36;
+}
+.comment .tool-span .tool-name.redis,
+.mission .tool-span .tool-name.redis,
+.about .tool-span .tool-name.redis,
+.contact .tool-span .tool-name.redis,
+.product .tool-span .tool-name.redis,
+.tools .tool-span .tool-name.redis,
+.dna .tool-span .tool-name.redis {
+  background-color: #D82A20;
+}
+.comment .tool-span .tool-name.coffee,
+.mission .tool-span .tool-name.coffee,
+.about .tool-span .tool-name.coffee,
+.contact .tool-span .tool-name.coffee,
+.product .tool-span .tool-name.coffee,
+.tools .tool-span .tool-name.coffee,
+.dna .tool-span .tool-name.coffee {
+  background-color: #191932;
+}
+.comment .tool-span .tool-name.bootstrap,
+.mission .tool-span .tool-name.bootstrap,
+.about .tool-span .tool-name.bootstrap,
+.contact .tool-span .tool-name.bootstrap,
+.product .tool-span .tool-name.bootstrap,
+.tools .tool-span .tool-name.bootstrap,
+.dna .tool-span .tool-name.bootstrap {
+  background-color: #5D2C4D;
+}
+.comment .tool-span .tool-name.jquery,
+.mission .tool-span .tool-name.jquery,
+.about .tool-span .tool-name.jquery,
+.contact .tool-span .tool-name.jquery,
+.product .tool-span .tool-name.jquery,
+.tools .tool-span .tool-name.jquery,
+.dna .tool-span .tool-name.jquery {
+  background-color: #1169AE;
+}
+.comment .tool-span .tool-name.rwd,
+.mission .tool-span .tool-name.rwd,
+.about .tool-span .tool-name.rwd,
+.contact .tool-span .tool-name.rwd,
+.product .tool-span .tool-name.rwd,
+.tools .tool-span .tool-name.rwd,
+.dna .tool-span .tool-name.rwd {
+  background-color: #E18728;
+}
+.comment .tool-span .tool-name.mediaquery,
+.mission .tool-span .tool-name.mediaquery,
+.about .tool-span .tool-name.mediaquery,
+.contact .tool-span .tool-name.mediaquery,
+.product .tool-span .tool-name.mediaquery,
+.tools .tool-span .tool-name.mediaquery,
+.dna .tool-span .tool-name.mediaquery {
+  background-color: #2CA9E1;
+}
+.comment .tool-span .tool-name.less,
+.mission .tool-span .tool-name.less,
+.about .tool-span .tool-name.less,
+.contact .tool-span .tool-name.less,
+.product .tool-span .tool-name.less,
+.tools .tool-span .tool-name.less,
+.dna .tool-span .tool-name.less {
+  background-color: #2A4D80;
+}
+.comment .tool-span .tool-name.backbone,
+.mission .tool-span .tool-name.backbone,
+.about .tool-span .tool-name.backbone,
+.contact .tool-span .tool-name.backbone,
+.product .tool-span .tool-name.backbone,
+.tools .tool-span .tool-name.backbone,
+.dna .tool-span .tool-name.backbone {
+  background-color: #002A41;
+}
+.comment .tool-span .tool-name.socketio,
+.mission .tool-span .tool-name.socketio,
+.about .tool-span .tool-name.socketio,
+.contact .tool-span .tool-name.socketio,
+.product .tool-span .tool-name.socketio,
+.tools .tool-span .tool-name.socketio,
+.dna .tool-span .tool-name.socketio {
+  background-color: #166F91;
+}
+.comment .tool-span .tool-name.websocket,
+.mission .tool-span .tool-name.websocket,
+.about .tool-span .tool-name.websocket,
+.contact .tool-span .tool-name.websocket,
+.product .tool-span .tool-name.websocket,
+.tools .tool-span .tool-name.websocket,
+.dna .tool-span .tool-name.websocket {
+  background-color: #777;
+}
+.comment .tool-span .tool-name.lodash,
+.mission .tool-span .tool-name.lodash,
+.about .tool-span .tool-name.lodash,
+.contact .tool-span .tool-name.lodash,
+.product .tool-span .tool-name.lodash,
+.tools .tool-span .tool-name.lodash,
+.dna .tool-span .tool-name.lodash {
+  background-color: #555;
+}
+.comment .tool-span .tool-name.async,
+.mission .tool-span .tool-name.async,
+.about .tool-span .tool-name.async,
+.contact .tool-span .tool-name.async,
+.product .tool-span .tool-name.async,
+.tools .tool-span .tool-name.async,
+.dna .tool-span .tool-name.async {
+  background-color: #333;
+}
+.comment .tool-span .tool-name.mocha,
+.mission .tool-span .tool-name.mocha,
+.about .tool-span .tool-name.mocha,
+.contact .tool-span .tool-name.mocha,
+.product .tool-span .tool-name.mocha,
+.tools .tool-span .tool-name.mocha,
+.dna .tool-span .tool-name.mocha {
+  background-color: #8B6340;
+}
+.comment .tool-span .tool-name.chai,
+.mission .tool-span .tool-name.chai,
+.about .tool-span .tool-name.chai,
+.contact .tool-span .tool-name.chai,
+.product .tool-span .tool-name.chai,
+.tools .tool-span .tool-name.chai,
+.dna .tool-span .tool-name.chai {
+  background-color: #B9574E;
+}
+.comment .tool-span .tool-name.should,
+.mission .tool-span .tool-name.should,
+.about .tool-span .tool-name.should,
+.contact .tool-span .tool-name.should,
+.product .tool-span .tool-name.should,
+.tools .tool-span .tool-name.should,
+.dna .tool-span .tool-name.should {
+  background-color: #333;
+}
+.comment .tool-span .tool-name.github,
+.mission .tool-span .tool-name.github,
+.about .tool-span .tool-name.github,
+.contact .tool-span .tool-name.github,
+.product .tool-span .tool-name.github,
+.tools .tool-span .tool-name.github,
+.dna .tool-span .tool-name.github {
+  background-color: #000;
+}
+.comment .tool-span .tool-name.codepen,
+.mission .tool-span .tool-name.codepen,
+.about .tool-span .tool-name.codepen,
+.contact .tool-span .tool-name.codepen,
+.product .tool-span .tool-name.codepen,
+.tools .tool-span .tool-name.codepen,
+.dna .tool-span .tool-name.codepen {
+  background-color: #000;
+}
+.comment .tool-span .tool-name.trello,
+.mission .tool-span .tool-name.trello,
+.about .tool-span .tool-name.trello,
+.contact .tool-span .tool-name.trello,
+.product .tool-span .tool-name.trello,
+.tools .tool-span .tool-name.trello,
+.dna .tool-span .tool-name.trello {
+  background-color: #146394;
+}
+.comment .tool-span .tool-name.browserstack,
+.mission .tool-span .tool-name.browserstack,
+.about .tool-span .tool-name.browserstack,
+.contact .tool-span .tool-name.browserstack,
+.product .tool-span .tool-name.browserstack,
+.tools .tool-span .tool-name.browserstack,
+.dna .tool-span .tool-name.browserstack {
+  background-color: #FC7D2F;
+}
+.comment .tool-span .tool-name.phonegap,
+.mission .tool-span .tool-name.phonegap,
+.about .tool-span .tool-name.phonegap,
+.contact .tool-span .tool-name.phonegap,
+.product .tool-span .tool-name.phonegap,
+.tools .tool-span .tool-name.phonegap,
+.dna .tool-span .tool-name.phonegap {
+  background-color: #049EC4;
+}
+.fonticon-container {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.fonticon-container .sosa-icon-chess,
+.fonticon-container .icon-trophy,
+.fonticon-container .icon-heart {
+  font-size: 10em;
+}
+.fonticon-container.fun {
+  padding-top: 0;
+}
+.twitter {
+  color: #5dd3ff;
+  font-weight: bold;
+}
+@media (max-width: 979px) {
+  body .ceo img {
+    max-width: 100px;
+  }
+}
